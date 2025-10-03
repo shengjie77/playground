@@ -2,9 +2,9 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Python: FastAPI",
+      "label": "Python: FastAPI Dev",
       "type": "shell",
-      "command": "uv run -m packages.fastapi.main",
+      "command": "uv run fastapi dev ./packages/fastapi/main.py",
       "options": {
         "cwd": "./python"
       },
