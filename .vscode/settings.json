@@ -2,5 +2,6 @@
     "files.autoSave": "afterDelay",
     "rust-analyzer.linkedProjects": [
         "rust/Cargo.toml"
-    ]
+    ],
+    "editor.formatOnSave": true
 }
