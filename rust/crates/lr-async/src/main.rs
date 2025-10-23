@@ -1,3 +1,6 @@
+mod timer_future;
+
+use std::future::Future;
 use std::time::Duration;
 
 use trpl::Html;
@@ -45,7 +48,6 @@ async fn message() {
         println!("received {value}");
     }
 }
-
 
 fn main() {
     trpl::run(async {
